@@ -7,6 +7,7 @@ Inside graphql folder there are resolvers folder and types folder, each folder c
 example:
 
 graphql -> resolvers -> User -> index.ts ( User resolver )
+
        |            |-> Post -> index.ts ( Post resolver )
        |-> types -> User -> index.ts ( User types )
                 |-> Post -> index.ts ( Post types )
