@@ -2,7 +2,7 @@ import { mergeTypes } from 'merge-graphql-schemas'
 import { importSchema } from 'graphql-import'
 
 // import your types here
-const Hello = importSchema(__dirname + '/Hello/index.graphql')
+const Hello = importSchema(__dirname + '/Hello.graphql')
 
 const typeDefs: any[] = [Hello]
 
