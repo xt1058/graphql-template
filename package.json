@@ -1,7 +1,7 @@
 {
-  "name": "taxi-server",
+  "name": "graphql-server-template",
   "version": "1.0.0",
-  "description": "App to request a taxi",
+  "description": "GraphQL + koa + typescript + MongoDB template",
   "main": "index.ts",
   "author": "Gustavo Velazquez Moctezuma",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "apollo-server-koa": "^2.3.2",
     "bcrypt": "^3.0.3",
     "graphql": "^14.1.1",
+    "graphql-import": "^0.7.1",
     "graphql-tools": "^4.0.4",
     "jsonwebtoken": "^8.4.0",
     "koa": "^2.6.2",
