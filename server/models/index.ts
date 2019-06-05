@@ -9,7 +9,7 @@ class Database {
     constructor(
         private uri: string, 
         private config: Object
-    ){ }
+    ){}
 
     async setUpDatabase(){
         try {
