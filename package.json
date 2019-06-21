@@ -15,16 +15,15 @@
     "apollo-server-koa": "^2.3.2",
     "bcrypt": "^3.0.3",
     "graphql": "^14.1.1",
-    "graphql-import": "^0.7.1",
     "graphql-tools": "^4.0.4",
     "jsonwebtoken": "^8.4.0",
     "koa": "^2.6.2",
     "merge-graphql-schemas": "^1.5.8",
     "mongoose": "^5.4.7",
-    "ts-loader": "^5.3.3",
     "typescript": "^3.2.4"
   },
   "devDependencies": {
+    "ts-loader": "^5.3.3",
     "nodemon": "^1.18.9",
     "ts-node": "^8.0.2"
   }

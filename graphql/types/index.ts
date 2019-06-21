@@ -1,9 +1,7 @@
-import { mergeTypes } from 'merge-graphql-schemas'
-import { importSchema } from 'graphql-import'
+import { mergeTypes, fileLoader } from 'merge-graphql-schemas'
+import { join } from 'path'
 
-// import your types here
-const Hello = importSchema(__dirname + '/Hello.graphql')
-
-const typeDefs: any[] = [Hello]
+// import all .graphql files
+const typeDefs = fileLoader(join(__dirname + '/'), {extensions: ['.graphql']})
 
 export default mergeTypes(typeDefs, { all: true })
