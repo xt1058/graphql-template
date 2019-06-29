@@ -1,4 +1,5 @@
-import * as Koa from 'koa'
+import Koa from 'koa'
+import bodyParser from 'koa-bodyparser'
 import { ApolloServer, ApolloError } from 'apollo-server-koa'
 import { PORT } from '../config'
 import schema from '../graphql'
@@ -10,6 +11,7 @@ class Server {
     
     constructor(private port: number){
         this.koa = new Koa()
+        this.koa.use(bodyParser())
         this.graphServer = new ApolloServer({
             schema,
             subscriptions: { // subscriptions options

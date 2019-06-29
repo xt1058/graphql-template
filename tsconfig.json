@@ -1,9 +1,14 @@
 {
     "compilerOptions": {
-        "outDir": "./build",
+        "outDir": "./dist",
         "module": "commonjs",
         "target": "es6",
-        "allowJs": true
+        "allowJs": true,
+        "lib": [
+            "esnext.asynciterable",
+            "es2015"
+        ],
+        "esModuleInterop": true
     },
     "exclude": ["node_modules"]
 }
