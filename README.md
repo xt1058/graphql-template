@@ -2,7 +2,7 @@
 
 This is a small GraphQL + Koa + MongoDB template, ready for start developing.
 
-Inside graphql's folder there are resolvers folder and types folder, each folder contains a folder for each model.
+Inside graphql's folder there are resolvers folder and types folder, resolvers folder contains a folder for each model.
 
 example:
 
