@@ -20,6 +20,7 @@
     "koa-bodyparser": "^4.2.1",
     "merge-graphql-schemas": "^1.5.8",
     "mongoose": "^5.4.7",
+    "typegoose": "^5.8.1",
     "typescript": "^3.2.4"
   },
   "devDependencies": {
