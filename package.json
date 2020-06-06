@@ -11,7 +11,7 @@
     "build_server": "tsc --build tsconfig.json"
   },
   "dependencies": {
-    "apollo-server-koa": "^2.3.2",
+    "apollo-server-koa": "^2.14.2",
     "bcrypt": "^3.0.3",
     "graphql": "^14.1.1",
     "graphql-tools": "^4.0.4",
